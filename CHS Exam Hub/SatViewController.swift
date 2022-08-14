@@ -17,7 +17,7 @@ class SatViewController: UIViewController, UIPickerViewDataSource, UIPickerViewD
     @IBOutlet weak var lateDeadline: UILabel!
     
     //Add dates here
-    let pickerData = ["August 28th, 2021", "October 2nd, 2021", "November 6th, 2021", "December 4th, 2021 ", "March 12th, 2022", "May 7th, 2022", "June 4th, 2022" ]
+    let pickerData = ["August 27th, 2022", "October 1st, 2022", "November 5th, 2022", "December 3rd, 2022 ", "March 11th, 2023", "May 6th, 2023", "June 3rd, 2023" ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,9 +55,9 @@ class SatViewController: UIViewController, UIPickerViewDataSource, UIPickerViewD
         
         if( row == 0)
         {
-            testingDate.text = "August 28th, 2021"
-            lateDeadline.text = "July 30th, 2021"
-            lastDeadline.text = "August 17th, 2021"
+            testingDate.text = "August 27th, 2022"
+            lateDeadline.text = "July 29th, 2022"
+            lastDeadline.text = "August 16th, 2022"
             
         }
 //        else if( row == 1)
@@ -69,43 +69,43 @@ class SatViewController: UIViewController, UIPickerViewDataSource, UIPickerViewD
     
         else if( row == 1)
         {
-            testingDate.text = "October 2nd, 2021"
-            lateDeadline.text = "September 3rd, 2021"
-            lastDeadline.text = "September 21st, 2021"
+            testingDate.text = "October 1st, 2022"
+            lateDeadline.text = "September 2nd, 2022"
+            lastDeadline.text = "September 20th, 2022"
         }
             
         else if( row == 2)
         {
-            testingDate.text = "November 6th, 2021"
-            lateDeadline.text = "October 8th, 2021"
-            lastDeadline.text = "October 26th, 2021"
+            testingDate.text = "November 5th, 2022"
+            lateDeadline.text = "October 7th, 2022"
+            lastDeadline.text = "October 25th, 2022"
         }
             
         else if( row == 3)
         {
-            testingDate.text = "December 4th, 2021"
-            lateDeadline.text = "November 4th, 2021"
-            lastDeadline.text = "November 23rd, 2021"
+            testingDate.text = "December 3rd, 2022"
+            lateDeadline.text = "November 3rd, 2022"
+            lastDeadline.text = "November 22nd, 2022"
         }
             
         else if( row == 4)
         {
-            testingDate.text = "March 12th, 2022"
-            lateDeadline.text = "February 11th, 2022"
-            lastDeadline.text = "March 1st, 2022"
+            testingDate.text = "March 11th, 2023"
+            lateDeadline.text = "February 10th, 2023"
+            lastDeadline.text = "February 28th, 2023"
         }
             
         else if( row == 5)
         {
-            testingDate.text = "May 7th, 2022"
-            lateDeadline.text = "April 8th, 2022"
-            lastDeadline.text = "April 26th, 2022 "
+            testingDate.text = "May 6th, 2023"
+            lateDeadline.text = "April 7th, 2023"
+            lastDeadline.text = "April 25th, 2023 "
         }
         else if( row == 6)
         {
-            testingDate.text = "June 4th, 2022"
-            lateDeadline.text = "May 5th, 2022"
-            lastDeadline.text = "May 25th, 2022 "
+            testingDate.text = "June 3rd, 2023"
+            lateDeadline.text = "May 4th, 2023"
+            lastDeadline.text = "May 23rd, 2023 "
         }
 
     }
