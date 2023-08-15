@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,9 @@
 		5A53582E1FD6FA8C00D0DF01 /* ActViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53582D1FD6FA8C00D0DF01 /* ActViewController.swift */; };
 		5A5358331FD89EC900D0DF01 /* VocabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5358321FD89EC900D0DF01 /* VocabViewController.swift */; };
 		5A5358351FD8CE3800D0DF01 /* Vocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5358341FD8CE3700D0DF01 /* Vocab.swift */; };
+		5AD6D74F2A8C0A3700B39430 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AD6D74E2A8C0A3600B39430 /* GoogleService-Info.plist */; };
+		5AD6D7522A8C0AE800B39430 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5AD6D7512A8C0AE800B39430 /* FirebaseAnalytics */; };
+		5AD6D7542A8C0AE800B39430 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 5AD6D7532A8C0AE800B39430 /* FirebaseMessaging */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,8 @@
 		5A5358321FD89EC900D0DF01 /* VocabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabViewController.swift; sourceTree = SOURCE_ROOT; };
 		5A5358341FD8CE3700D0DF01 /* Vocab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocab.swift; sourceTree = "<group>"; };
 		5A5358381FE079F100D0DF01 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../Downloads/examhublogo/ios/AppIcon.appiconset; sourceTree = "<group>"; };
+		5AD6D74E2A8C0A3600B39430 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5AD6D7552A8C160D00B39430 /* CHS Exam Hub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CHS Exam Hub.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD6D7542A8C0AE800B39430 /* FirebaseMessaging in Frameworks */,
+				5AD6D7522A8C0AE800B39430 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +76,7 @@
 		5A5358121FD5BB7100D0DF01 /* CHS Exam Hub */ = {
 			isa = PBXGroup;
 			children = (
+				5AD6D7552A8C160D00B39430 /* CHS Exam Hub.entitlements */,
 				5A5358341FD8CE3700D0DF01 /* Vocab.swift */,
 				5A5358131FD5BB7100D0DF01 /* AppDelegate.swift */,
 				5A5358321FD89EC900D0DF01 /* VocabViewController.swift */,
@@ -83,6 +91,7 @@
 				5A5358381FE079F100D0DF01 /* AppIcon.appiconset */,
 				5A53581C1FD5BB7100D0DF01 /* LaunchScreen.storyboard */,
 				5A53581F1FD5BB7100D0DF01 /* Info.plist */,
+				5AD6D74E2A8C0A3600B39430 /* GoogleService-Info.plist */,
 			);
 			path = "CHS Exam Hub";
 			sourceTree = "<group>";
@@ -103,6 +112,10 @@
 			dependencies = (
 			);
 			name = "CHS Exam Hub";
+			packageProductDependencies = (
+				5AD6D7512A8C0AE800B39430 /* FirebaseAnalytics */,
+				5AD6D7532A8C0AE800B39430 /* FirebaseMessaging */,
+			);
 			productName = "CHS Exam Hub";
 			productReference = 5A5358101FD5BB7100D0DF01 /* CHS Exam Hub.app */;
 			productType = "com.apple.product-type.application";
@@ -133,6 +146,9 @@
 				Base,
 			);
 			mainGroup = 5A5358071FD5BB7100D0DF01;
+			packageReferences = (
+				5AD6D7502A8C0AE800B39430 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 5A5358111FD5BB7100D0DF01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -151,6 +167,7 @@
 				5A5358281FD5C48000D0DF01 /* SAT.jpg in Resources */,
 				5A53581E1FD5BB7100D0DF01 /* LaunchScreen.storyboard in Resources */,
 				5A53581B1FD5BB7100D0DF01 /* Assets.xcassets in Resources */,
+				5AD6D74F2A8C0A3700B39430 /* GoogleService-Info.plist in Resources */,
 				5A5358261FD5BE2F00D0DF01 /* Exam.jpg in Resources */,
 				5A5358191FD5BB7100D0DF01 /* Main.storyboard in Resources */,
 			);
@@ -245,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -299,10 +316,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -311,12 +329,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = "CHS Exam Hub/CHS Exam Hub.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 7.0;
 				DEVELOPMENT_TEAM = H7BHXZ2C27;
 				INFOPLIST_FILE = "CHS Exam Hub/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TrojanCSApps.CHSExamHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -329,12 +351,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = "CHS Exam Hub/CHS Exam Hub.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 7.0;
 				DEVELOPMENT_TEAM = H7BHXZ2C27;
 				INFOPLIST_FILE = "CHS Exam Hub/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TrojanCSApps.CHSExamHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -365,6 +391,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5AD6D7502A8C0AE800B39430 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5AD6D7512A8C0AE800B39430 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AD6D7502A8C0AE800B39430 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5AD6D7532A8C0AE800B39430 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AD6D7502A8C0AE800B39430 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5A5358081FD5BB7100D0DF01 /* Project object */;
 }

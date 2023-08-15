@@ -25,10 +25,10 @@ class ActViewController: UIViewController, UIPickerViewDataSource, UIPickerViewD
         self.sessionPicker.delegate = self
         self.sessionPicker.dataSource = self
         
-        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "ACT.jpg")
-        backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
-        self.view.insertSubview(backgroundImage, at: 0)
+        //let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        //backgroundImage.image = UIImage(named: "ACT.jpg")
+        //backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
+        //self.view.insertSubview(backgroundImage, at: 0)
         sessionPicker.setValue(UIColor.black, forKey: "textColor")
         
         // Do any additional setup after loading the view.

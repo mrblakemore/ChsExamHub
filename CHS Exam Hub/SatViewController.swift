@@ -23,11 +23,11 @@ class SatViewController: UIViewController, UIPickerViewDataSource, UIPickerViewD
         super.viewDidLoad()
         self.sessionPicker.delegate = self
         self.sessionPicker.dataSource = self
-        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImage.image = UIImage(named: "SAT.jpg")
-        backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
+        //let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        //backgroundImage.image = UIImage(named: "SAT2.jpg")
+        //backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
         sessionPicker.setValue(UIColor.black, forKey: "textColor")
-        self.view.insertSubview(backgroundImage, at: 0)
+        //self.view.insertSubview(backgroundImage, at: 0)
         
         // Do any additional setup after loading the view.
     }
