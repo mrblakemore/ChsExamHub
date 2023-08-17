@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,6 @@
 		5A5358191FD5BB7100D0DF01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A5358171FD5BB7100D0DF01 /* Main.storyboard */; };
 		5A53581B1FD5BB7100D0DF01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A53581A1FD5BB7100D0DF01 /* Assets.xcassets */; };
 		5A53581E1FD5BB7100D0DF01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A53581C1FD5BB7100D0DF01 /* LaunchScreen.storyboard */; };
-		5A5358261FD5BE2F00D0DF01 /* Exam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A5358251FD5BE2E00D0DF01 /* Exam.jpg */; };
-		5A5358281FD5C48000D0DF01 /* SAT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A5358271FD5C47F00D0DF01 /* SAT.jpg */; };
-		5A53582A1FD5C63100D0DF01 /* ACT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A5358291FD5C63000D0DF01 /* ACT.jpg */; };
 		5A53582C1FD6FA7D00D0DF01 /* SatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53582B1FD6FA7D00D0DF01 /* SatViewController.swift */; };
 		5A53582E1FD6FA8C00D0DF01 /* ActViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53582D1FD6FA8C00D0DF01 /* ActViewController.swift */; };
 		5A5358331FD89EC900D0DF01 /* VocabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5358321FD89EC900D0DF01 /* VocabViewController.swift */; };
@@ -32,14 +29,10 @@
 		5A53581A1FD5BB7100D0DF01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A53581D1FD5BB7100D0DF01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A53581F1FD5BB7100D0DF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A5358251FD5BE2E00D0DF01 /* Exam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Exam.jpg; path = ../../../Downloads/Exam.jpg; sourceTree = "<group>"; };
-		5A5358271FD5C47F00D0DF01 /* SAT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SAT.jpg; path = ../../../Downloads/SAT.jpg; sourceTree = "<group>"; };
-		5A5358291FD5C63000D0DF01 /* ACT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ACT.jpg; path = ../../../Downloads/ACT.jpg; sourceTree = "<group>"; };
 		5A53582B1FD6FA7D00D0DF01 /* SatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatViewController.swift; sourceTree = "<group>"; };
 		5A53582D1FD6FA8C00D0DF01 /* ActViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActViewController.swift; sourceTree = "<group>"; };
 		5A5358321FD89EC900D0DF01 /* VocabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabViewController.swift; sourceTree = SOURCE_ROOT; };
 		5A5358341FD8CE3700D0DF01 /* Vocab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocab.swift; sourceTree = "<group>"; };
-		5A5358381FE079F100D0DF01 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppIcon.appiconset; path = ../../../Downloads/examhublogo/ios/AppIcon.appiconset; sourceTree = "<group>"; };
 		5AD6D74E2A8C0A3600B39430 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5AD6D7552A8C160D00B39430 /* CHS Exam Hub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "CHS Exam Hub.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,11 +77,7 @@
 				5A53582B1FD6FA7D00D0DF01 /* SatViewController.swift */,
 				5A53582D1FD6FA8C00D0DF01 /* ActViewController.swift */,
 				5A5358171FD5BB7100D0DF01 /* Main.storyboard */,
-				5A5358291FD5C63000D0DF01 /* ACT.jpg */,
-				5A5358271FD5C47F00D0DF01 /* SAT.jpg */,
 				5A53581A1FD5BB7100D0DF01 /* Assets.xcassets */,
-				5A5358251FD5BE2E00D0DF01 /* Exam.jpg */,
-				5A5358381FE079F100D0DF01 /* AppIcon.appiconset */,
 				5A53581C1FD5BB7100D0DF01 /* LaunchScreen.storyboard */,
 				5A53581F1FD5BB7100D0DF01 /* Info.plist */,
 				5AD6D74E2A8C0A3600B39430 /* GoogleService-Info.plist */,
@@ -126,8 +115,9 @@
 		5A5358081FD5BB7100D0DF01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "Robby Blakemore";
 				TargetAttributes = {
 					5A53580F1FD5BB7100D0DF01 = {
@@ -163,12 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A53582A1FD5C63100D0DF01 /* ACT.jpg in Resources */,
-				5A5358281FD5C48000D0DF01 /* SAT.jpg in Resources */,
 				5A53581E1FD5BB7100D0DF01 /* LaunchScreen.storyboard in Resources */,
 				5A53581B1FD5BB7100D0DF01 /* Assets.xcassets in Resources */,
 				5AD6D74F2A8C0A3700B39430 /* GoogleService-Info.plist in Resources */,
-				5A5358261FD5BE2F00D0DF01 /* Exam.jpg in Resources */,
 				5A5358191FD5BB7100D0DF01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,15 +318,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CODE_SIGN_ENTITLEMENTS = "CHS Exam Hub/CHS Exam Hub.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7.0;
+				CURRENT_PROJECT_VERSION = 8.0;
 				DEVELOPMENT_TEAM = H7BHXZ2C27;
 				INFOPLIST_FILE = "CHS Exam Hub/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CHS Exam Hub";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 7;
+				MARKETING_VERSION = 8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TrojanCSApps.CHSExamHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -353,15 +342,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CODE_SIGN_ENTITLEMENTS = "CHS Exam Hub/CHS Exam Hub.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 7.0;
+				CURRENT_PROJECT_VERSION = 8.0;
 				DEVELOPMENT_TEAM = H7BHXZ2C27;
 				INFOPLIST_FILE = "CHS Exam Hub/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CHS Exam Hub";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 7;
+				MARKETING_VERSION = 8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.TrojanCSApps.CHSExamHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
